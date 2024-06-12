@@ -174,7 +174,7 @@ async def greet_new_member(_, member: ChatMemberUpdated):
             button_text = "اضفني الي قناتك او مجموعتك" 
             add_button_text = "قناة السورس 🚦"
             deep_link = f"https://t.me/{app.username}?startchannel=true"
-            add_link = f"https://t.me/l2_2Y"
+            add_link = f"https://t.me/CH_CRAZ"
             temp.MELCOW[f"welcome-{member.chat.id}"] = await app.send_photo(
                 member.chat.id,
                 photo=welcomeimg,
