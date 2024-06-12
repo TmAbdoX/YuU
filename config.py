@@ -12,15 +12,15 @@ API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME","II_U_6")
-USER_OWNER = getenv("USER_OWNER","YeYeYc")
+OWNER_USERNAME = getenv("OWNER_USERNAME","CRAZ_UP")
+USER_OWNER = getenv("USER_OWNER","CRAZ_UP")
 # Get Your bot username
 BOT_USERNAME = getenv("BOT_USERNAME" , None)
 # Don't Add style font 
 BOT_NAME = getenv("BOT_NAME" , None)
 #get Your Assistant User name
 ASSUSERNAME = getenv("ASSUSERNAME" , None)
-EVALOP = list(map(int, getenv("EVALOP", "6456857472").split()))
+EVALOP = list(map(int, getenv("EVALOP", "5085942765").split()))
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
@@ -45,7 +45,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/lotusabdo/Abdo3.git",
+    "https://github.com:Tm-Lotus/YuU.git",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
