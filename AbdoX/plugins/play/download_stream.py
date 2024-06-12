@@ -136,7 +136,7 @@ async def download_video(client, CallbackQuery):
                 f"**● ꒐ انتظر دقيقة {chutiya}\n\n● ꒐ سأقوم بتنزيله من YouTube**",
                 file_stark,
             ),
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐁𝐎𝐃𝐀-", url=f"https://t.me/l2_2Y")]]))
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"سورس كريزي", url=f"https://t.me/CH_CRAZ")]]))
         
         await client.send_message(CallbackQuery.message.chat.id, f"**● ꒐ عزيزتي {chutiya}\n\n✅ ꒐ تم التنزيل بنجاح\n● ꒐ لقد أرسلت لك مقطع فيديو في الدردشة الخاصة\n● ꒐ [انقر هنا](tg://openmessage?user_id={app.id}) **", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"اضغط هنا", url=f"tg://openmessage?user_id={app.id}")]]))
         await pablo.delete()
@@ -237,7 +237,7 @@ async def download_audio(client, CallbackQuery):
                 f"**● ꒐ انتظر دقيقة {chutiya}\n\n● ꒐ سأقوم بتنزيله من YouTube**",
                 file_stark,
             ),
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"⌯𝐒𝐎𝐔𝐑𝐂𝐄 𝐁𝐎𝐃𝐀-", url=f"https://t.me/l2_2Y")]]))
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"سورس كريزي", url=f"https://t.me/CH_CRAZ")]]))
             
         await client.send_message(CallbackQuery.message.chat.id, f"**● ꒐ ● ꒐ عزيزتي {chutiya}\n\n✅ ꒐ تم التنزيل بنجاح\n● ꒐ لقد أرسلت لك مقطع فيديو في الدردشة الخاصة\n● ꒐ [انقر هنا](tg://openmessage?user_id={app.id}) **", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"اضغط هنا", url=f"tg://openmessage?user_id={app.id}")]]))
         
