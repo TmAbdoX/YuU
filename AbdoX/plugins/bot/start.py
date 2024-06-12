@@ -13,7 +13,6 @@ import config
 from AbdoX import app
 from AbdoX.misc import _boot_
 from AbdoX.utils import bot_up_time
-from AbdoX.plugins.sudo.sudoers import sudoers_list
 from AbdoX.utils.database import get_served_chats, get_served_users, get_sudoers
 from AbdoX.utils import bot_sys_stats
 from AbdoX.utils.database import (
