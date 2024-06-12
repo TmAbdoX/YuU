@@ -35,7 +35,7 @@ SONG_DOWNLOAD_DURATION_LIMIT = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "99999
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6456857472))
+OWNER_ID = int(getenv("OWNER_ID", 5085942765))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -52,9 +52,9 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/l2_2Y")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/CVCVCVUI")
-OWNER_CHANNEL = getenv("OWNER_CHANNEL", "https://t.me/l2_2Y")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/CH_CRAZ")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/CH_CRAZ")
+OWNER_CHANNEL = getenv("OWNER_CHANNEL", "https://t.me/CH_CRAZ")
 GROUP_BOT = int(getenv("GROUP_BOT", "-1002107910251"))
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -95,16 +95,16 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/af5a7f8f211725f3f4274.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/93c01d015d6c369948d03.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/5eb96c4141db368f17b84.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/93c01d015d6c369948d03.jpg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/88fb55599836ef5662a98.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/88fb55599836ef5662a98.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/88fb55599836ef5662a98.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/88fb55599836ef5662a98.jpg"
-STREAM_IMG_URL = "https://graph.org/file/5eb96c4141db368f17b84.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/93c01d015d6c369948d03.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/93c01d015d6c369948d03.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/93c01d015d6c369948d03.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/93c01d015d6c369948d03.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/93c01d015d6c369948d03.jpg"
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/88fb55599836ef5662a98.jpg"
 YOUTUBE_IMG_URL = "https://te.legra.ph/file/88fb55599836ef5662a98.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/88fb55599836ef5662a98.jpg"
